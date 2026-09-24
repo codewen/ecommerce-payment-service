@@ -1,0 +1,16 @@
+package com.yunyao.payment.domain;
+
+public enum CheckoutStatus {
+    CREATED,
+    OUT_OF_STOCK,
+    PAYMENT_AUTHORIZATION_PENDING,
+    PAYMENT_OUTCOME_UNKNOWN,
+    PAYMENT_DECLINED,
+    PAYMENT_AUTHORIZED,
+    ORDER_CREATED,
+    CAPTURE_PENDING,
+    PAID,
+    COMPENSATION_PENDING,
+    CANCELLED,
+    REQUIRES_REVIEW
+}
